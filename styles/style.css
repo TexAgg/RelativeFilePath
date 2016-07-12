@@ -1,31 +1,53 @@
-.centered-horizontal
+.absolute-center
 {
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-.centered-vertical
-{
-	margin-top: auto;
-	margin-bottom: auto;
+	margin: auto;
+	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	width: 50%; 
+	height: 50%;
+	min-width: 200px;
+	max-width: 400px;
+	padding: 40px;
 }
 
 #output
 {
-	margin-right: auto;
-	margin-left: auto;
+	/* http://stackoverflow.com/a/18036534/5415895 */
+	margin: auto;
+    float: none;
+
+	/* https://codepen.io/OldManJava/pen/bwupj */
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#output-box
+{
 	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
+}
+
+#outer-span
+{
+
+}
+
+#copyButton
+{
+	padding: 0;
 }
 
 /* https://github.com/TexAgg/TexAgg.github.io/blob/dynamic/styles/style.css#L50 */
 footer
 {
-    font-size: 0.75em;
+	font-size: 0.75em;
     text-align: center;
     clear: both;
     padding-top: 50px;
     color: #ccc;
+
+	/* https://codepen.io/cbracco/pen/zekgx */
+	position: absolute;
+	right: 0;
+	bottom: 0;
+  	left: 0;
 }

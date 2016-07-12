@@ -2,7 +2,7 @@
 include("templates/header.php");
 ?>
 <div class="container">
-	<form action="action.php">
+	<form class="absolute-center" action="action.php">
 		<div class="form-group">
 			<label for="file1">File 1:</label>
 			<input type="text" class="form-control" id="file1" name="file1" placeholder="Current file"></input>

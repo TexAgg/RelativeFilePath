@@ -1,3 +1,16 @@
+.centered-horizontal
+{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.centered-vertical
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 /* https://github.com/TexAgg/TexAgg.github.io/blob/dynamic/styles/style.css#L50 */
 footer
 {

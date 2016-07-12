@@ -14,7 +14,7 @@ $response = $fs->makePathRelative(
 );
 ?>
 <div class="container">
-	<div class="panel">
+	<div class="panel panel-default centered-horizontal">
 	<?php 
 	echo $response;
 	?>

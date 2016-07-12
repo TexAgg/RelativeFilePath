@@ -14,10 +14,8 @@ $response = $fs->makePathRelative(
 );
 ?>
 <div class="container">
-	<div class="panel panel-default centered-horizontal">
-	<?php 
-	echo $response;
-	?>
+	<div id="output" class="panel panel-default input-group">
+		<input type="text" class="form-control centered-horizontal" value='<?php echo $response;?>' readonly></input>
 	</div>
 </div>
 

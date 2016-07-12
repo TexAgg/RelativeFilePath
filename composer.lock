@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "011a8fc5f482b6979af4e52b46a0f56d",
-    "content-hash": "4b33774be9c17736087fe18df43d7f99",
+    "hash": "6088436c8cf070c8de4539577f95c2b1",
+    "content-hash": "d86c6596b40526ffdf3975d6b14ee29d",
     "packages": [
         {
             "name": "symfony/filesystem",
@@ -55,6 +55,67 @@
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
             "time": "2016-06-29 05:41:56"
+        },
+        {
+            "name": "zeroclipboard/zeroclipboard",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zeroclipboard/zeroclipboard.git",
+                "reference": "039fb799c916d3730fbc898c2f5ef24581c7e9b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zeroclipboard/zeroclipboard/zipball/039fb799c916d3730fbc898c2f5ef24581c7e9b7",
+                "reference": "039fb799c916d3730fbc898c2f5ef24581c7e9b7",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "dist/ZeroClipboard.js"
+                    ],
+                    "files": [
+                        "dist/ZeroClipboard.swf",
+                        "dist/ZeroClipboard.min.js",
+                        "dist/ZeroClipboard.min.map",
+                        "dist/ZeroClipboard.Core.js",
+                        "dist/ZeroClipboard.Core.min.js",
+                        "dist/ZeroClipboard.Core.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Rohan",
+                    "homepage": "http://jonrohan.me/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James M. Greene",
+                    "email": "james.m.greene@gmail.com",
+                    "homepage": "http://greene.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.",
+            "homepage": "http://zeroclipboard.org/",
+            "keywords": [
+                "clip",
+                "clipboard",
+                "clippy",
+                "copy",
+                "cut",
+                "flash",
+                "paste",
+                "zclip"
+            ],
+            "time": "2014-12-29 17:46:14"
         }
     ],
     "packages-dev": [

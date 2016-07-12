@@ -1,0 +1,13 @@
+{
+    "name": "mgaik/relative-file-path",
+    "description": "Get the relative filepath given 2 filenames",
+    "authors": [
+        {
+            "name": "Matt G",
+            "email": "matt.gaikema@tamu.edu"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^3.1"
+    }
+}

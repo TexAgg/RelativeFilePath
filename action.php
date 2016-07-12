@@ -15,6 +15,9 @@ $response = $fs->makePathRelative(
 ?>
 <div class="container">
 	<div id="output" class="input-group col-xs-3">
+		<span class="input-group-btn">
+			<button class="btn" id="reset-button" onclick="resetButtonClicked()">Reset</button>
+		</span>
 		<input type="text" id="output-box" class="form-control" value='<?php echo $response;?>' readonly></input>
 		<span id="outer-span" class="input-group-addon">
 			<button id="copyButton" data-clipboard-target="#output-box">

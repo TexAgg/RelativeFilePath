@@ -9,8 +9,8 @@ use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 $fs = new Filesystem();
 
 $response = $fs->makePathRelative(
-	$_GET['file1'],
-	$_GET['file2']
+	$_GET['file2'],
+	$_GET['file1']
 );
 ?>
 <div class="container">

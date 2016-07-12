@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Relative File Path</title>
-	
+	<link rel='icon' href="../img/favicon.png"></link>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>

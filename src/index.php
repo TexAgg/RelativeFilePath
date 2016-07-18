@@ -11,7 +11,10 @@ include("templates/header.php");
 			<label for="file2">File 2:</label>
 			<input type="text" class="form-control" id="file2" name="file2" placeholder="Destination file"></input>
 		</div>
-		<button type="submit" class="btn btn-default">Submit</button>	
+		<div class="input-group-btn">
+			<button type="submit" class="btn btn-default">Submit</button>
+			<input type="button" class="btn btn-default" value="Swap!" onclick="swapFiles()"></input>
+		</div>
 	</form>
 </div><!--container-->
 <?php
